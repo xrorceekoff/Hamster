@@ -1,0 +1,182 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+body{
+    height: 100vh;
+}
+.hamsterKombat{
+    width: 420px;
+    height: 100vh;
+    margin: 0 auto;
+    overflow: hidden;
+    background-color: #000;
+    .head{
+        display: flex;
+        .xIcon{
+            padding-top: 30px;
+            margin-left: 20px;
+        }
+        .headName{
+            color: white;
+            font-size: 30px;
+            margin-top: 27px;
+            margin-left: 50px;
+        }
+        .dotIcon{
+            margin-top: 35px;
+            margin-left: 70px;
+        }
+    }
+    .bottomHead{
+        display: flex;
+        .hamsterIcon{
+            width: 40px;
+            height: 40px;
+            overflow: hidden;
+            padding-top: 30px;
+            margin-left: 17px;
+            margin-top: 15px;
+            border-radius: 10px;
+            background-color: rgb(62, 61, 61);
+        }
+        .name{
+            color: white;
+            font-size: 20px;
+            margin-top: 25px;
+            margin-left: 15px;
+        }
+        .bybitIcon{
+            img{
+                margin-top: 20px;
+                margin-left: 170px;
+
+            }
+        }
+    }
+    .bodyDiv{
+        width: 102%;
+        height: 101vh;
+        margin-top: 30px;
+        margin-left: -5px;
+        border: 2px solid gold;
+        box-shadow: 1px 1px 60px 0px gold;
+        border-top-right-radius: 50px;
+        border-top-left-radius: 50px;
+        background-color: rgb(19, 23, 40);
+        .moneyBar{
+            display: flex;
+            margin: 0 auto;
+            margin-top: 20px;
+            justify-content: center;
+            gap: 5px;
+            .box{
+                padding: 5px;
+                width: 120px;
+                height: 60px;
+                color: white;
+                
+                border-radius: 10px;
+                background-color: rgb(36, 35, 35);
+                i{
+                    font-size: 20px;
+                    margin-top: 10px;
+                    margin-right: 5px;
+                }
+            }
+        }
+        .coinMoney{
+            display: flex;
+            color: white;
+            margin-top: 30px;
+            margin-left: 50px;
+            h1{
+                font-size: 50px;
+                font-weight: 400;
+            }
+            i{
+                font-size: 60px;
+                margin-right: 10px;
+            }
+        }
+        .master{
+            color: white;
+            margin-left: 25px;
+            margin-top: 5px;
+        }
+        .level{
+            color: white;
+            transform: translateX(330px) translateY(-18px);
+        }
+        .timer{
+            width: 85%;
+            height: 15px;
+            margin: 0 auto;
+            overflow: hidden;
+            border-radius: 30px;
+            background-color: rgb(36, 35, 35);
+            div{
+                width: 90%;
+                height: 30px;
+                background: linear-gradient(90deg, rgb(0, 255, 89) ,rgb(217, 0, 255),rgb(0, 98, 255));
+
+            }
+        }
+        .clickHamster{
+            margin-left: 90px;
+            margin-top: 20px;
+            button{
+                width: 250px;
+                height: 250px;
+                border: 15px solid rgb(6, 6, 117);
+                border-radius: 100%;
+                background: radial-gradient(rgb(14, 2, 253),rgb(4, 4, 155),rgb(4, 4, 98));
+                &:active{
+                    transform: rotateY(20deg);
+                    transition: 0.1s;
+                }
+            }
+            
+        }
+        .numberClick{
+            color: white;
+            display: flex;
+            margin-left: 20px;
+            margin-top: 5px;
+            h1{
+                font-size: 20px;
+                font-weight: 500;
+                margin-left: 5px;
+                margin-top: 5px;
+            }
+            i{
+                font-size: 30px;
+            }
+        }
+        .rocket{
+            display: flex;
+            color: white;
+            transform: translateX(300px) translateY(-25px);
+            i{
+                font-size: 30px;
+                
+            }
+            p{
+                font-size: 20px;
+                margin-left: 5px;
+
+            }
+        }
+        .footBar{
+            width: 90%;
+            height: 70px;
+            margin: 0 auto;
+            display: flex;
+            border-radius: 20px;
+            transform: translateY(-25px);
+            background-color: rgb(36, 35, 35);
+        }
+    }
+}
